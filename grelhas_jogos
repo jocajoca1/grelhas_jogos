@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplicação de Grelhas para Jogos</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            margin: 20px auto;
+        }
+        td {
+            width: 30px;
+            height: 30px;
+            border: 1px solid #000;
+            background-color: white;
+            cursor: pointer;
+        }
+        td.black {
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Grelha de Jogos</h1>
+    <table id="grid"></table>
+    <script>
+        const gridSize = 15; // Tamanho da grelha 15x15
+        const table = document.getElementById('grid');
+
+        // Função para criar a grelha
+        function createGrid() {
+            for (let i = 0; i < gridSize; i++) {
+                const row = document.createElement('tr');
+                for (let j = 0; j < gridSize; j++) {
+                    const cell = document.createElement('td');
+                    cell.addEventListener('click', () => toggleCell(cell));
+                    row.appendChild(cell);
+                }
+                table.appendChild(row);
+            }
+        }
+
+        // Função para alternar a cor das células
+        function toggleCell(cell) {
+            cell.classList.toggle('black');
+        }
+
+        createGrid(); // Cria a grelha
+    </script>
+</body>
+</html>
