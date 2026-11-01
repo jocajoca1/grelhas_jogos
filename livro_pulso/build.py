@@ -258,7 +258,7 @@ def alfabeto():
 
 # ------------------------------------------------------------------ páginas
 def capa():
-    heads = [(1, "Guitarra dourada some nos bastidores"), (2, "Chili sabotado no festival"),
+    heads = [(1, "Guitarra dourada desaparece nos bastidores"), (2, "Chili sabotado no festival"),
              (3, "Óculos do futuro roubados"), (4, "Fuga pelos túneis do metro"),
              (5, "Obra-prima trocada por falsa"), (6, "Apagão na final de e-sports"),
              (7, "Colar desaparece em alto-mar"), (8, "Quem é o Fantasma?")]
@@ -312,10 +312,10 @@ def caso1():
     n = 1
     cif = P.cesar(CESAR_MSG, 3)
     return f"""<section class="page" {tema(n)}>
-{mast(n, "Festival Som do Rio · 40 mil pessoas no recinto · Concerto de Lia Montes atrasou 45 minutos")}
+{mast(n, "Festival Som do Rio · 40 mil pessoas no recinto · Concerto de Lia Montes atrasou-se 45 minutos")}
 <div class="kicker">Festival Som do Rio</div>
 <h1 class="headline">Guitarra dourada de Lia Montes <span class="hl">desaparece</span> dos bastidores</h1>
-<p class="lead">Instrumento avaliado em 80 mil euros sumiu da tenda dos artistas minutos antes do concerto principal.
+<p class="lead">Instrumento avaliado em 80 mil euros desapareceu da tenda dos artistas minutos antes do concerto principal.
 Só quatro pessoas tinham pulseira de acesso à zona.</p>
 <div class="byline">Por <b>Paulo Tinta</b> · enviado especial</div>
 <div class="cols2">
@@ -403,7 +403,7 @@ ter "escondido lá o que viu a seguir".</p>
 {suspeitos([
  ("Bela Couto", "Taco Loco · avental vermelho", "“Disse que o Tó ia provar do próprio veneno? Era uma piada!”"),
  ("Octávio Reis", "Burger Bomba · casaco azul", "“Passei por lá para lhe dar os parabéns adiantados. Só isso.”"),
- ("Kátia Pires", "Wok & Roll · casaco amarelo", "“Estive o tempo todo a saltear noodles. Tenho 40 clientes como testemunhas.”"),
+ ("Kátia Pires", "Wok & Roll · casaco amarelo", "“Estive o tempo todo a saltear massa no wok. Tenho 40 clientes como testemunhas.”"),
  ("Filipe Moura", "Crepe Lab · avental azul", "“Fui pedir açúcar emprestado ao Tó. Ele não estava, vim-me embora.”"),
 ])}
 {foot(n, "Página 1")}</section>
@@ -474,7 +474,7 @@ aberto uma vez.</p>
 </div>
 {suspeitos([
  ("Sara Vidal", "Designer", "“Saí para jantar e voltei só para ir buscar o casaco. Nem olhei para o cofre.”"),
- ("Hugo Matos", "Programador", "“Aquele post dos óculos novos? Comprei uns de sol, juro!”"),
+ ("Hugo Matos", "Programador", "“Aquela publicação dos óculos novos? Comprei uns de sol, juro!”"),
  ("Telma Ferraz", "Eng.ª de hardware", "“Estive a soldar placas. Quando estou concentrada nem dou por quem entra.”"),
  ("Tiago Alves", "Estagiário", "“Fui o último a sair. Apaguei as luzes, como sempre.”"),
 ])}
@@ -506,7 +506,7 @@ aberto uma vez.</p>
  </div>
 </div>
 <div class="box" style="margin-top:4mm"><h3>📱 Nas redes</h3>
-<p class="small"><b>@hugo.codes</b> (publicado às 19h02): "Em breve vou ter uns óculos novos 😎 #mudança" — o post foi apagado na manhã seguinte.</p></div>
+<p class="small"><b>@hugo.codes</b> (publicado às 19h02): "Em breve vou ter uns óculos novos 😎 #mudança" — a publicação foi apagada na manhã seguinte.</p></div>
 {fantasma("Segundo trabalho concluído. Os óculos já viajam. Próximo encontro: debaixo da cidade. — <b>O Fantasma</b>")}
 <div style="margin-top:3mm">{pergunta('A tua investigação: <span>quem abriu o cofre e levou o Visio-1?</span>')}</div>
 {foot(n, "Página 2")}</section>"""
@@ -565,7 +565,7 @@ alguém de capuz a sair para a rua — o que, numa quarta à noite, não é nada
  ("Igor Santos", "Técnico do metro", "“Vivo junto à estação das Flores. Estava em casa a ver futebol.”"),
  ("Paula Mendes", "Ex-gerente do banco", "“Também moro perto das Flores. Deitei-me cedo, estava cansada.”"),
  ("Marco Freitas", "Estafeta do banco", "“Moro mesmo ao lado da estação do Cais. Não saí de casa.”"),
- ("Rosa Lemos", "Limpezas do banco", "“Vivo na Alameda. Passei a noite a fazer tricô, como sempre.”"),
+ ("Rosa Lemos", "Limpezas do banco", "“Vivo na Alameda. Passei a noite a fazer malha, como sempre.”"),
 ])}
 {foot(n, "Página 1")}</section>
 
@@ -635,7 +635,7 @@ do ombro. "A conclusão diz-vos como era a mão que pintou a cópia. O resto é 
 <div class="grid-6-4">
  <div class="desafio" style="margin-top:2mm"><div class="lock">🔓 Desafio de acesso <b>· Anagramas</b></div>
  <h3>O caderno da curadora</h3>
- <p class="small">Desembaralha cada palavra (todas são do mundo da pintura) e escreve-a nas casas.
+ <p class="small">Volta a pôr por ordem as letras de cada palavra (todas são do mundo da pintura) e escreve-a nas casas.
  Depois, <b>lê de cima para baixo as letras que ficam nos círculos</b>: é a conclusão de Amélia.</p>
  <div class="anag">{an}</div>
  <p class="small" style="margin-top:3mm"><b>Conclusão:</b> a cópia foi pintada por alguém… <span class="write" style="min-width:45mm"></span></p>
@@ -720,7 +720,7 @@ Os perfis e os bilhetes deles estão na página seguinte.</p>
 <div class="grid2" style="margin-top:3.5mm">
  <div class="box yel"><h3>🔌 Tecnologia</h3><div class="byline">Por <b>Vera Pena</b></div>
  <p class="small">Os nomes de jogador raramente são ao acaso: muitos escolhem animais, muitas vezes em inglês. Um "lynx" é um lince,
- um "raven" é um corvo… e quem passa as noites acordado a jogar é, em inglês, "a night owl".</p></div>
+ um "raven" é um corvo… e quem passa as noites acordado a jogar adora nomes de aves noturnas.</p></div>
  <div class="box"><h3>🏟️ A bancada</h3><p class="small">A fila 1 é a mais próxima do palco. O aparelho tinha alcance de cerca de 15 metros
  — as filas 1 a 8 estavam todas dentro do alcance.</p></div>
 </div>
@@ -899,7 +899,7 @@ def solucoes():
          "um <b>casaco</b>. Só Octávio usa um casaco azul (o casaco da Kátia é amarelo). <b>Culpado: Octávio Reis (O).</b>"),
         (3, "Os óculos Visio-1", f"Desafio: hora <span class='ans'>23:14</span> (solução do sudoku por linhas: {sud}).",
          "O cofre só abre por dentro e foi aberto uma única vez, às 23h14. Nessa hora, o Hugo já tinha saído (23h10), o Tiago ainda não "
-         "tinha entrado (23h20) e a Sara estava fora (saiu às 22h50, voltou às 23h35). Só a Telma estava no laboratório. O post do Hugo era "
+         "tinha entrado (23h20) e a Sara estava fora (saiu às 22h50, voltou às 23h35). Só a Telma estava no laboratório. A publicação do Hugo era "
          "uma pista falsa. <b>Culpada: Telma Ferraz (T).</b>"),
         (4, "O ouro do Banco Atlântico", "Desafio: <span class='ans'>O LADRÃO SAIU NA ESTAÇÃO DAS FLORES</span>.",
          "Na estação das Flores, às 22h50, saiu alguém a coxear da perna esquerda. Vivem lá a Paula e o Igor. A Paula acabou a meia-maratona "
