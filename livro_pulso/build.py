@@ -862,7 +862,7 @@ Quatro pessoas tinham a chave da porta. Uma delas sou eu — e, para que não ha
 <div class="grid2" style="grid-template-columns:1fr 1fr;gap:5mm">
 <div>
 <div class="cifra" style="font-size:12pt">{cif}</div>
-<p class="small" style="margin-top:2.5mm"><b>Como decifrar:</b> escreve a chave (7 letras) por baixo da carta, letra a letra, repetindo-a
+<p class="small" style="margin-top:2.5mm"><b>Como decifrar:</b> escreve a chave (7 letras) por baixo da carta, letra a letra, e repete-a
 as vezes que forem precisas (os espaços não contam). Para cada par, vai à linha da tabela que começa pela <b>letra da chave</b>,
 procura nessa linha a <b>letra cifrada</b> e sobe até ao topo da coluna: essa é a letra verdadeira.</p>
 <p class="small"><b>Exemplo</b> com a chave "SOL": a letra cifrada <b>W</b> com a chave <b>S</b> → na linha S, o W está na coluna <b>E</b>.</p>
